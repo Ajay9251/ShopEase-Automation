@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[electronic has been passed]]>
+    </line>
+    <line>
+      <![CDATA[gift has been passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-05-20T21:20:02 IST" name="Suite" finished-at="2026-05-20T21:20:49 IST" duration-ms="47622">
+    <groups>
+    </groups>
+    <test started-at="2026-05-20T21:20:02 IST" name="Test" finished-at="2026-05-20T21:20:49 IST" duration-ms="47622">
+      <class name="com.tricentis.testscripts.GiftCards">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.tricentis.testscripts.GiftCards@3857f613]" started-at="2026-05-20T21:20:27 IST" name="launch" finished-at="2026-05-20T21:20:34 IST" duration-ms="6726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.tricentis.testscripts.GiftCards@3857f613]" started-at="2026-05-20T21:20:34 IST" name="login" finished-at="2026-05-20T21:20:36 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="gift()[pri:0, instance:com.tricentis.testscripts.GiftCards@3857f613]" started-at="2026-05-20T21:20:36 IST" name="gift" finished-at="2026-05-20T21:20:48 IST" duration-ms="11785" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[gift has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gift -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.tricentis.testscripts.GiftCards@3857f613]" started-at="2026-05-20T21:20:48 IST" name="logout" finished-at="2026-05-20T21:20:49 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricentis.testscripts.GiftCards@3857f613]" started-at="2026-05-20T21:20:49 IST" name="closeBrowser" finished-at="2026-05-20T21:20:49 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tricentis.testscripts.GiftCards -->
+      <class name="com.tricentis.testscripts.Electronics">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.tricentis.testscripts.Electronics@62ddbd7e]" started-at="2026-05-20T21:20:02 IST" name="launch" finished-at="2026-05-20T21:20:08 IST" duration-ms="6167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.tricentis.testscripts.Electronics@62ddbd7e]" started-at="2026-05-20T21:20:08 IST" name="login" finished-at="2026-05-20T21:20:10 IST" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="electronic()[pri:0, instance:com.tricentis.testscripts.Electronics@62ddbd7e]" started-at="2026-05-20T21:20:10 IST" name="electronic" finished-at="2026-05-20T21:20:25 IST" duration-ms="14499" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[electronic has been passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- electronic -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.tricentis.testscripts.Electronics@62ddbd7e]" started-at="2026-05-20T21:20:25 IST" name="logout" finished-at="2026-05-20T21:20:26 IST" duration-ms="1700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.tricentis.testscripts.Electronics@62ddbd7e]" started-at="2026-05-20T21:20:27 IST" name="closeBrowser" finished-at="2026-05-20T21:20:27 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.tricentis.testscripts.Electronics -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
