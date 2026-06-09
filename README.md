@@ -45,6 +45,7 @@ The framework is designed using the Page Object Model (POM) and Data-Driven Test
 
 ## Project Structure
 
+```text
 DemoWebShop-Automation
 ├── generic
 │   ├── BaseClass.java
@@ -72,4 +73,4 @@ DemoWebShop-Automation
 ├── test-output
 ├── pom.xml
 └── testng.xml
-
+```
