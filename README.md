@@ -43,6 +43,33 @@ The framework is designed using the Page Object Model (POM) and Data-Driven Test
 * Properties Configuration File
 * Screenshot Repository
 
-## Author
+## Project Structure
 
-**Ajay**
+DemoWebShop-Automation
+├── generic
+│   ├── BaseClass.java
+│   ├── FileLib.java
+│   └── ListenerImplementation.java
+│
+├── pom
+│   ├── LoginPage.java
+│   ├── HomePage.java
+│   ├── DashBoardPage.java
+│   ├── ShoppingCartPage.java
+│   ├── GiftCardPage.java
+│   ├── VirtualGiftCardPage.java
+│   └── CheckOut.java
+│
+├── testscripts
+│   ├── Electronics.java
+│   └── GiftCards.java
+│
+├── resources
+│   ├── commondata.properties
+│   └── testcase.xlsx
+│
+├── screenshots
+├── test-output
+├── pom.xml
+└── testng.xml
+
